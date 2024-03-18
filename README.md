@@ -1,20 +1,15 @@
-# Typst Resume Template
+# My resume
 
-A simple resume template for [typst.app](https://typst.app/).
+This is my resume built with [typst.app](https://typst.app/).  
+This is a fork of https://github.com/bamboovir/typst-resume-template.
 
-Aesthetic style inspired by the following project:
+## [Resume \[EN\]](./resume.pdf)
 
-- [Awesome-CV](https://github.com/posquit0/Awesome-CV)
+![awesome-sample](./assets/image/resume.png)
 
-- [LaTeX Resume](https://github.com/billryan/resume)
+## [Resume \[FR\]](./resume.pdf)
 
-This is not a perfect clone, the main purpose of this project is to explore and experiment with Typst's typography features.
-
-## [Sample](./resume.pdf)
-
-![awesome-sample](./assets/image/awesome-sample.png)
-
-![latex-sample](./assets/image/latex-sample.png)
+![awesome-sample](./assets/image/resume_fr.png)
 
 ## Development Environment
 
