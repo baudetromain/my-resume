@@ -56,14 +56,12 @@
       #justify_align_3[
         #smallcaps[#date]
       ][
+        
+      ][
         #smallcaps[
           #author.firstname
           #author.lastname
-          #sym.dot.c
-          #"Résumé"
         ]
-      ][
-        #counter(page).display()
       ]
     ],
     footer-descent: 0pt,
@@ -92,7 +90,7 @@
 
   let positions = {
     set text(
-      size: 9pt,
+      size: 15pt,
       weight: "regular",
       ligatures: false,
     )
@@ -129,7 +127,7 @@
           #separator
           #linkedin_icon
           #box[
-            #link("https://www.linkedin.com/in/" + author.linkedin)[#author.linkedin]
+            #link("https://www.linkedin.com/in/" + author.linkedin.url)[#author.linkedin.name]
           ]
         ]
       ]
@@ -193,6 +191,17 @@
 #let resume_gpa(numerator, denominator) = {
   set text(size: 12pt, style: "normal", weight: "light")
   text[Cumulative GPA: #box[#strong[#numerator] / #denominator]]
+}
+
+// French students usually don't display their GPA, so I'm replacing it with something else
+#let specialization(spec, lang) = {
+  set text(size: 12pt, style: "normal", weight: "light")
+  if lang == "fr" {
+    text[Spécialité #box[#strong[#spec]]]
+  }
+  else {
+    text[Specialization in #box[#strong[#spec]]]
+  }
 }
 
 // sections specific components
@@ -260,6 +269,18 @@
   ]
 }
 
+// The above personal project template didn't suit me (mainly because there was nothing I could put in location, position and start_time), so I made my own below
+#let my_personal_project_item_header(
+  activity
+) = {
+  set block(above: 0.7em, below: 0.7em)
+  set pad(top: 5pt)
+  
+  pad[
+    #resume_organization[#activity]
+  ]
+}
+
 #let skill_item(category, items) = {
   set block(below: 0.65em)
   set pad(top: 5pt)
@@ -277,4 +298,27 @@
       ],
     )
   ]
+}
+
+#let my_skill_item(category, items) = {
+  set block(below: 0.65em)
+  set pad(top: 5pt)
+  
+  pad[
+    #grid(
+      columns: (20fr, 80fr),
+      gutter: 40pt,
+      align(right)[
+        #resume_category[#category]
+      ],
+      align(left)[
+        #set text(size: 11pt, style: "normal", weight: "light")
+        #items.join(", ")
+      ],
+    )
+  ]
+}
+
+#let my_link(caption, url) = {
+  underline(link(url)[#caption])
 }
