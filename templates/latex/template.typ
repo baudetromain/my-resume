@@ -56,7 +56,7 @@
       #justify_align_3[
         #smallcaps[#date]
       ][
-        
+        https://github.com/baudetromain/my-resume
       ][
         #smallcaps[
           #author.firstname
