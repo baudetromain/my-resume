@@ -54,7 +54,7 @@
 #resume_item[
   - I worked for 6 months for the company Alten, in a mission in a company called #my_link("Ekinops", "https://www.ekinops.com/"), a company that makes software and hardware for ISP companies
   - My mission was called Vulnerability Management ; I had to pre-analyse the vulnerabilities (CVEs) that are published each day by the #my_link("National Vulnerability Database", "https://nvd.nist.gov/") to determine which one could potentially affect Ekinops' products
-  - Vulnerabilities that might affect Ekinops' products are internally tracked, and I had to take care of them through their whole lifecycle, from their initial detection to their resolution, informing our clients of their status
+  - Vulnerabilities that might affect Ekinops' products are internally tracked, and I had to take care of them throughout their whole lifecycle, from their initial detection to their resolution, informing our clients of their status
   - This work involved a part of manual sorting of the vulnerabilities, but also a lot of automation of it, through setting up scripts automatically run regularly to pre-sort vulnerabilities
   - Thanks to this mission, I learned about the vulnerability management process in companies, and I also got some technical knowledge such as Gitlab CI/CD and Python scripting and website scraping
 ]
