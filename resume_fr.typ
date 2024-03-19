@@ -29,7 +29,7 @@
 ][
   #specialization("Cybersécurité", "fr")
 ][
-  Sep. 2018 - Sep. 2023
+  Sept. 2018 - Sept. 2023
 ]
 
 #education_item[
@@ -39,7 +39,7 @@
 ][
   #specialization("Informatique et sciences du numérique", "fr")
 ][
-  Sep. 2015 - Jun. 2018
+  Sept. 2015 - Juin 2018
 ]
 
 #resume_section("Expérience")
@@ -48,7 +48,7 @@
   "Ekinops (contracteur à Alten)",
   "Sophia Antipolis",
   "Gestion de vulnérabilités",
-  "Sep. 2023 - Mar. 2024",
+  "Sept. 2023 - Mars 2024",
 )
 
 #resume_item[
@@ -63,14 +63,14 @@
   "NXP semiconductors",
   "Mougins",
   "Stage de fin d'études",
-  "Mar. 2023 - Sep. 2023",
+  "Mars 2023 - Sept. 2023",
 )
 
 #resume_item[
-  - J'ai effectué mon stage de fin d'études dans les bureaux de Mougins d'NXP semiconductors, en tant que développeur logiciels embarqués. #my_link("NXP semiconductors", "https://www.nxp.com/") est une entreprise designant et fabriquant entre autre des microprocesseurs et des microcontrôlleurs
+  - J'ai effectué mon stage de fin d'études dans les bureaux de Mougins d'NXP semiconductors, en tant que développeur logiciels embarqués. #my_link("NXP semiconductors", "https://www.nxp.com/") est une entreprise designant et fabriquant entre autre des microprocesseurs et des microcontrôleurs
   - Le but de mon stage était d'étudier le standard #my_link("Trusted Execution Environment", "https://en.wikipedia.org/wiki/Trusted_execution_environment") (TEE), qui est utilisé par la plupart des microprocesseurs fabriqués par NXP pour assurer la sécurité de la plateforme, et d'étudier ensuite un nouveau standard appelé #my_link("Platform Security Architecture", "https://en.wikipedia.org/wiki/PSA_Certified") qui gagne de l'importance dans le milieu des microprocesseurs et tend à remplacer le standard TEE en offrant des avantages par rapport à ce dernier
-  - Le but final était de réaliser une proof of concept d'une architecture PSA en exécution sur un microprocesseur d'NXP, afin de dans le futur adopter ce standard en remplacant progressivement TEE
-  - Grâce à ce stage, j'ai découvert le monde du développement embarqué grâce à un sujet de stage à cheval entre l'embarqué et la Cybersécurité
+  - Le but final était de réaliser une proof of concept d'une architecture PSA en exécution sur un microprocesseur d'NXP, afin d' adopter ce standard dans le futur en remplacant progressivement TEE
+  - Grâce à ce stage, j'ai découvert le monde du développement embarqué grâce à un sujet de stage à mi-chemin entre l'embarqué et la Cybersécurité
 ]
 
 #resume_section("Projets personnels")
@@ -80,7 +80,7 @@
 )
 
 #resume_item[
-  - J'aime beaucoup les challenges du type CTF (Capture The Flag). Si vous ne connaissez pas, un CTF "est un exercise dans lequel les participants essayent de trouver des "flags", qui sont des bouts de texte cachés dans des programmes ou sites web volontairement vulnérables." (traduit de from #my_link("Wikipedia", "https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)?oldformat=true"))
+  - J'aime beaucoup les challenges du type CTF (Capture The Flag). Si vous ne connaissez pas, un CTF "est un exercise dans lequel les participants essayent de trouver des "flags", qui sont des bouts de texte cachés dans des programmes ou sites web volontairement vulnérables." (#my_link("plus ici", "https://cybersecurity.att.com/blogs/security-essentials/capture-the-flag-ctf-what-is-it-for-a-newbie"))
   - Je participe à ces challenges soit sur des sites tels que #my_link("Root-Me", "https://www.root-me.org/") ou #my_link("Hack the Box", "https://www.hackthebox.com/") où on peut tenter les challenges quand on le souhaite, sans réelle limite de temps, et où de nouveaux challenges sont régulièrement ajoutés, mais je participe aussi à des évènements à durée limitée, où les participants forment des équipes et doivent résoudre le plus de challenges possibles en un temps donné (48h, une semaine...). J'ai participé au #my_link("Nahamcon CTF 2023", "https://ctftime.org/event/2023/") où j'ai joué seul et me suis placé 336e sur 2686 équipes, et au #my_link("osu!gaming CTF 2024", "https://ctftime.org/event/2165/"), en équipe avec des amis, où nous avons terminés 25e sur un total de 984 équipes.
 ]
 

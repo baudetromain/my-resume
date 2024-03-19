@@ -80,7 +80,7 @@
 )
 
 #resume_item[
-  - I like playing challenges of the CTF (Capture the flag) format. If you don't know about it, CTF "is an exercise in which participants attempt to find text strings, called "flags", which are secretly hidden in purposefully-vulnerable programs or websites." (from #my_link("Wikipedia", "https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)?oldformat=true"))
+  - I like playing challenges of the CTF (Capture the flag) format. If you don't know about it, CTF "is an exercise in which participants attempt to find text strings, called "flags", which are secretly hidden in purposefully-vulnerable programs or websites." (#my_link("more here", "https://cybersecurity.att.com/blogs/security-essentials/capture-the-flag-ctf-what-is-it-for-a-newbie"))
   - I play such challenges on websites such as #my_link("Root-Me", "https://www.root-me.org/") or #my_link("Hack the Box", "https://www.hackthebox.com/") where one can play such challenges any time they want and where new challenges are regularily added, but I also sometimes participate to CTF events, where participants are teaming up to beat as many challenges as possible in a given time. I've participated to #my_link("Nahamcon CTF 2023", "https://ctftime.org/event/2023/") where I placed 336th out of 2686 teams (I played alone), and #my_link("osu!gaming CTF 2024", "https://ctftime.org/event/2165/"), teaming up with some friends and getting 25th place out of 984 teams.
 ]
 
