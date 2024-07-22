@@ -52,11 +52,10 @@
 )
 
 #resume_item[
-  - J'ai travaillé pendant 6 mois pour la société Alten, en mission pour une compagnie appelée #my_link("Ekinops", "https://www.ekinops.com/"), une société produisant des logiciels et matériels à destination des FAI
-  - La mission était intitulée Gestion de vulnérabilités ; je devais effectuer une première analyse des vulnérabilités publiées chaque jour par la #my_link("National Vulnerability Database", "https://nvd.nist.gov/") afin de déterminer lesquelles étaient susceptibles d'affecter nos produits
-  - Les vulnérabilités qui peuvent affecter les produits d'Ekinops sont suivies, et je devais m'assurer de ce suivi pendant toute leur durée de vie, de leur détection initiale jusqu'à leur correction, en maintenant informés les clients d'Ekinops
-  - Ce travail comprenait un travail manuel de tri des vulnérabilités, mais également une partie automatisée de pré-tri de ce qui peut l'être automatiquement, à l'aide de scripts et d'outils développés en interne
-  - Cette mission m'a permis de découvrir la méthode de gestion des vulnérabilités au sein des entreprises, et j'ai également acquis des compétences techniques telles que l'apprentissage de la CI/CD avec Gitlab et le scripting en Python
+  - Equipe cybersécurité d'#my_link("Ekinops", "https://www.ekinops.com/")
+  - Poste: correction de vulnerabilités
+  - Environment technique: python, bash, unix, SQL, git, gitlab ci/cd
+  - Réalisations: Détection et résolutions de vulnérabilités en respectant les SLA, Automatisation des tâches pouvant l'être, amélioration du processus de correction des vulnerabilités
 ]
 
 #work_experience_item_header(
@@ -67,10 +66,10 @@
 )
 
 #resume_item[
-  - J'ai effectué mon stage de fin d'études dans les bureaux de Mougins d'NXP semiconductors, en tant que développeur logiciels embarqués. #my_link("NXP semiconductors", "https://www.nxp.com/") est une entreprise designant et fabriquant entre autre des microprocesseurs et des microcontrôleurs
-  - Le but de mon stage était d'étudier le standard #my_link("Trusted Execution Environment", "https://en.wikipedia.org/wiki/Trusted_execution_environment") (TEE), qui est utilisé par la plupart des microprocesseurs fabriqués par NXP pour assurer la sécurité de la plateforme, et d'étudier ensuite un nouveau standard appelé #my_link("Platform Security Architecture", "https://en.wikipedia.org/wiki/PSA_Certified") qui gagne de l'importance dans le milieu des microprocesseurs et tend à remplacer le standard TEE en offrant des avantages par rapport à ce dernier
-  - Le but final était de réaliser une proof of concept d'une architecture PSA en exécution sur un microprocesseur d'NXP, afin d' adopter ce standard dans le futur en remplacant progressivement TEE
-  - Grâce à ce stage, j'ai découvert le monde du développement embarqué grâce à un sujet de stage à mi-chemin entre l'embarqué et la Cybersécurité
+  - Equipe architecture de securité des microprocesseurs a #my_link("NXP semiconductors", "https://www.nxp.com/")
+  - Poste: Développeur embarqué
+  - Environment technique: C, C++, Makefile, CMake, git, Bitbucket
+  - Réalisation (but du stage): Preuve de concept d'un système PSA-compliant tournant sur un microprocesseur d'NXP
 ]
 
 #resume_section("Projets personnels")
@@ -87,14 +86,14 @@
 #resume_section("Compérences")
 
 #my_skill_item(
-  "Langages de programmation",
+  "Programmation",
   (
     "Bonne maîtrise:",
     "Python",
     "Bash",
     "Java",
-    "C ; Maîtrise modérée: Javascript (framework Angular, framework express.js)",
-    "PHP ; Maîtrise des bases: C++",
+    "C\nMaîtrise modérée: Javascript (framework Angular, framework express.js)",
+    "PHP\nMaîtrise des bases: C++",
     "Scheme (LISP)",
     "Rust"
   )
@@ -108,5 +107,26 @@
     "cryptographie",
     "OSINT",
     "reverse engineering. Vus en école puis approfondis en autodidacte."
+  )
+)
+
+#resume_section("Langues")
+
+#my_skill_item(
+  "Francais",
+  (
+    "Langue maternelle",
+  ),
+)
+#my_skill_item(
+  "Anglais",
+  (
+    "Bonne maîtrise (905/990 a l'examen du TOEIC)",
+  )
+)
+#my_skill_item(
+  "Italien",
+  (
+    "Maîtrise intermédiaire, étudié au collège et au lycée",
   )
 )

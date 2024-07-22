@@ -52,25 +52,24 @@
 )
 
 #resume_item[
-  - I worked for 6 months for the company Alten, in a mission in a company called #my_link("Ekinops", "https://www.ekinops.com/"), a company that makes software and hardware for ISP companies
-  - My mission was called Vulnerability Management ; I had to pre-analyse the vulnerabilities (CVEs) that are published each day by the #my_link("National Vulnerability Database", "https://nvd.nist.gov/") to determine which one could potentially affect Ekinops' products
-  - Vulnerabilities that might affect Ekinops' products are internally tracked, and I had to take care of them throughout their whole lifecycle, from their initial detection to their resolution, informing our clients of their status
-  - This work involved a part of manual sorting of the vulnerabilities, but also a lot of automation of it, through setting up scripts automatically run regularly to pre-sort vulnerabilities
-  - Thanks to this mission, I learned about the vulnerability management process in companies, and I also got some technical knowledge such as Gitlab CI/CD and Python scripting and website scraping
+  - Cybersecurity team of #my_link("Ekinops", "https://www.ekinops.com/")
+  - Position: Vulnerability management
+  - Technical environment: python, bash, unix, SQL, git, gitlab ci/cd
+  - Achievements: Detection and fix of vulnerabilities within the SLA, Automation of tasks that can be automated, improvement of the vulnerability management process
 ]
 
 #work_experience_item_header(
   "NXP semiconductors",
   "Mougins",
-  "End of studies internship",
+  "Embedded developper (End of studies internship)",
   "Mar. 2023 - Sep. 2023",
 )
 
 #resume_item[
-  - I've done my end of studies internship at NXP semiconductors' Mougins site, as an embedded software engineer. #my_link("NXP semiconductors", "https://www.nxp.com/") is a company that designs and makes microprocessors and microcontrollers 
-  - The goal of my internship was to study the #my_link("Trusted Execution Environment", "https://en.wikipedia.org/wiki/Trusted_execution_environment") (TEE) standard, that most of NXP's microprocessors uses to ensure the safety of the platform, and study a new standard called #my_link("Platform Security Architecture", "https://en.wikipedia.org/wiki/PSA_Certified") (PSA) which is gaining importance and replacing TEE by offering advantages TEE doesn't possess
-  - The end goal was to make a proof of concept of a PSA-compliant architecture running on one of NXP's microprocessors
-  - Thanks to this internship, I discovered the world of embedded development with an internship topic about both embedded development and cybersecurity
+  - Microprocessor security architecture team of #my_link("NXP semiconductors", "https://www.nxp.com/")
+  - Position: Embedded developper
+  - Technical environment: C, C++, Makefile, CMake, git, Bitbucket
+  - Achievement: Proof-of-concept of a PSA-compliant system running on an NXP microprocessor
 ]
 
 #resume_section("Personal Projects")
@@ -93,8 +92,8 @@
     "Python",
     "Bash",
     "Java",
-    "C ; Moderate knowledge: Javascript (Angular framework, express.js framework)",
-    "PHP ; few knowledge: C++",
+    "C\nModerate knowledge: Javascript (Angular framework, express.js framework)",
+    "PHP\nFew knowledge: C++",
     "Scheme (LISP)",
     "Rust"
   )
@@ -108,5 +107,26 @@
     "cryptography",
     "OSINT",
     "reverse engineering. Studied basics in school and learned more by my own"
+  )
+)
+
+#resume_section("Languages")
+
+#my_skill_item(
+  "French",
+  (
+    "Native language",
+  ),
+)
+#my_skill_item(
+  "English",
+  (
+    "Proficient (905/990 at the TOEIC exam)",
+  )
+)
+#my_skill_item(
+  "Italian",
+  (
+    "Intermediate, studied in middle school and high school",
   )
 )
